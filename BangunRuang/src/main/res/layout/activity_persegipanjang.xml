@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".persegipanjang">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="5dp"
+          android:text="Persegi Panjang"
+          android:textSize="29sp"
+          android:background="#26dbff"
+          android:textColor="#ffff"
+          android:textStyle="bold"
+          />
+      <TextView
+          android:layout_margin="10dp"
+          android:textColor="#ffff"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/persegipanjang"
+          android:background="@drawable/kotak"
+          android:textSize="17sp"
+          android:padding="5dp"
+          />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Rumus-rumus"
+    android:background="#26dbff"
+    android:textSize="29sp"
+    android:padding="5dp"
+    android:textColor="#ffff"
+    android:textStyle="bold"
+    />
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/persegipanjang"
+          android:layout_gravity="center"
+          android:layout_margin="5dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Contoh soal"
+          android:background="#26dbff"
+          android:textSize="29sp"
+          android:textStyle="bold"
+          android:textColor="#FFFf"
+          android:padding="5dp"
+          />
+      <TextView
+          android:layout_margin="10dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/kotak3"
+          android:text="@string/contohsoalpersegipanjang"
+          android:padding="5dp"
+          android:textSize="20sp"
+          />
+      <Button
+          android:onClick="hitungpersegipanjang"
+          android:layout_width="203dp"
+          android:layout_height="wrap_content"
+          android:textSize="23sp"
+          android:text="Kalkulator"
+          android:layout_gravity="center"
+          />
+  </LinearLayout>
+
+</ScrollView>

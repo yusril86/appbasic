@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anonym.BangunRuang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Materi"
+            android:label="@string/titlemateri"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".persegi"
+            android:label="@string/titlemuatanlistrik"
+            android:parentActivityName=".Materi" />
+        <activity
+            android:name=".segitiga"
+            android:label="@string/tittlekuatarus"
+            android:parentActivityName=".Materi" />
+        <activity
+            android:name=".lingkaran"
+            android:label="@string/titlelingkaran"
+            android:parentActivityName=".Materi" />
+        <activity
+            android:name=".persegipanjang"
+            android:label="@string/titlepersegipanjang"
+            android:parentActivityName=".Materi" />
+        <activity android:name=".kalkulatorpersegi" />
+        <activity android:name=".kalkulatorsegitiga" />
+        <activity android:name=".kalkulatorlingkaran" />
+        <activity android:name=".kalkulatorpersegipanjang" />
+        <activity android:name=".Quiz"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".kalkulatorpersegi">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#53d160"
+        android:padding="5dp"
+        android:text="Luas Persegi"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edt_sisi1"
+        android:layout_margin="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="masukkan nilai(s) "
+        />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edt_sisi2"
+        android:layout_margin="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="masukkan nilai (s) " />
+    <Button
+        android:id="@+id/btn_hitungpersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="29sp"
+        android:padding="17dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:padding="5dp"
+        android:background="@drawable/kotakhitung"
+        android:id="@+id/tv_hasilpersegi"
+        android:layout_margin="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hasil......."
+        android:textSize="29sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#53d160"
+        android:padding="5dp"
+        android:text="Keliling Persegi"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edt_sisi3"
+        android:layout_margin="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="masukkan nilai(s) "
+        />
+
+
+    <Button
+        android:id="@+id/btn_hitungkelilingpersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="29sp"
+        android:padding="17dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:padding="5dp"
+        android:background="@drawable/kotakhitung"
+        android:id="@+id/tv_hasilkelilingpersegi"
+        android:layout_margin="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hasil......."
+        android:textSize="29sp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kalkulatorlingkaran">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Lingkaran"
+        android:textSize="29sp"
+        android:background="#53d160"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+<EditText
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:hint="masukkan nilai (r)"
+    android:layout_margin="34dp"
+    android:layout_gravity="center"
+    android:inputType="number|numberDecimal"
+    android:id="@+id/edt_jarijari"
+    />
+    <Button
+        android:id="@+id/btn_hitunglingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="29sp"
+        android:padding="17dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_hasillingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Hasil......."
+        android:textSize="29sp"
+        android:background="@drawable/kotakhitung"
+        android:padding="5dp"
+        android:layout_margin="17dp"
+        />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kalkulatorpersegi">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#53d160"
+        android:padding="5dp"
+        android:text="Luas Segitiga"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:inputType="number|numberDecimal"
+        android:id="@+id/edt_alas"
+        android:layout_margin="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="masukkan nilai(alas) "
+        />
+
+    <EditText
+        android:inputType="number|numberDecimal"
+        android:id="@+id/edt_tinggi"
+        android:layout_margin="12dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="masukkan nilai (tinggi) " />
+    <Button
+        android:id="@+id/btn_hitungsegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="29sp"
+        android:padding="17dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:padding="5dp"
+        android:background="@drawable/kotakhitung"
+        android:id="@+id/tv_hasilsegitiga"
+        android:layout_margin="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hasil......."
+        android:textSize="29sp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

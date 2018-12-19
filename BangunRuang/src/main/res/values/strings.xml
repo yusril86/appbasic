@@ -1,0 +1,100 @@
+<resources>
+    //Judul Title bar
+    <string name="app_name">BangunRuang</string>
+    <string name="titlemuatanlistrik">Persegi</string>
+    <string name="titlemateri">Materi</string>
+    <string name="tittlekuatarus">Segitiga</string>
+    <string name="titlelingkaran">Lingkaran</string>
+    <string name="titlepersegipanjang">Persegi Panjang</string>
+
+
+    //Text persegi
+    <string name="persegimateri">
+        <li> Persegi mempunyai sisi yang sama panjang sisi yang berdekatan membentuk siku siku</li>
+        \n
+        <li> Diagonal sama panjang, saling membagi satu sama lain dan tegak lurus
+        </li>
+    </string>
+    <string name="contohsoalpersegi">
+    Panjang sisi dari sebuah jendela yang berbentuk persegi adalah 12 cm. Hitunglah luas jendela tersebut.
+    \n
+Jawab :
+\n
+    <b> L = s x s </b>
+    \n
+    L = 12cm x 12cm = 144cm2
+</string>
+
+
+    //Text Segitiga
+    <string name="segitiga">
+        \n
+        <ul><li> Jumlah ukuran sudut-sudut Segitiga adalah 180° </li></ul>
+        \n
+        <ul><li> Garis sumbu dari sebuah sisi adalah tegak lurus terhadap titik pusat sisi </li></ul>
+        \n
+        <li> Mempunyai satu sumbu simetri </li>
+        \n
+        <li> Dua sudut yang sama besar yaitu sudut yang berhadapan dengan sisi yang panjangnya sama </li>
+        \n
+        <li> Mempunyai dua sisi yang sama panjang </li>
+    </string>
+    <string name="contohsoalsegitiga">
+Sebuah segitiga memiliki alas sebesar 5 cm dan tinggi 6 cm. Hitunglah luas segitiga tersebut ?
+    \n
+    <b>Pembahasan</b>
+    \n
+    \n
+    <b>Luas Segitiga =</b>
+    \n
+    1/2 x alas x tinggi
+    \n
+    <b>Luas Segitiga =</b>
+    \n
+    1/2 x 5 x 6
+    \n
+    \n
+     Jadi ,Luas Segitiga = <b>15 cm2</b>
+</string>
+
+
+    //Text Lingkaran
+    <string name="lingkaran">
+        <li> Lingkaran adalah garis yang melalui titik pusat lingkaran dan menghubungkan dua titik di garis lengkung lingkaran</li>
+        \n
+    <li> Sebuah lingkaran ditentukan oleh titik pusat dan jari-jari atua diameter </li>
+        \n
+</string>
+
+    <string name="contohsoallingkaran">
+        Sebuah lapangan berbentuk lingkaran memiliki 88 m, tentukanlah luas lapangan tersebut. \n
+        \n
+        <b> Penyelesaian :</b>
+        \n
+        <b> L = πr2</b> \n
+        L = (3,14) x 14 x 14 \n
+        L = 3,14 x 14 m2 x 14 m2 \n
+        L = 615,44 (616) m2 \n
+
+    </string>
+
+    //Text Persegipanjang
+    <string name="persegipanjang">
+        <li> Persegi panjang adalah segi empat yang semua sudut dalamnya siku-siku </li>
+        \n
+        <li> Sisi-sisi yang berhadapan adalah sejajar dan sama panjangnya </li>
+        \n
+        <li> Diagonal sama panjang, saling membagi satu sama lain </li>
+
+    </string>
+    <string name="contohsoalpersegipanjang">
+    Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Hitunglah keliling bangun tersebut
+    \n
+    \n
+    Keliling = <b>2 x (panjang + lebar)</b>
+    \n
+    K = 2 x (12 + 8) = 2 x 20 = 40 cm
+</string>
+
+
+</resources>
