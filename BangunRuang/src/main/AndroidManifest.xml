@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/iconbangundatar"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -36,10 +36,18 @@
             android:name=".persegipanjang"
             android:label="@string/titlepersegipanjang"
             android:parentActivityName=".Materi" />
-        <activity android:name=".kalkulatorpersegi" />
-        <activity android:name=".kalkulatorsegitiga" />
-        <activity android:name=".kalkulatorlingkaran" />
-        <activity android:name=".kalkulatorpersegipanjang" />
+        <activity
+            android:name=".kalkulatorpersegi"
+            android:label="Persegi" />
+        <activity
+            android:name=".kalkulatorsegitiga"
+            android:label="Segitiga" />
+        <activity
+            android:name=".kalkulatorlingkaran"
+            android:label="Lingkaran" />
+        <activity
+            android:name=".kalkulatorpersegipanjang"
+            android:label="Persegi panjang" />
         <activity android:name=".Quiz"></activity>
     </application>
 

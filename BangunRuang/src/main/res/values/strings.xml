@@ -64,18 +64,31 @@ Sebuah segitiga memiliki alas sebesar 5 cm dan tinggi 6 cm. Hitunglah luas segit
         \n
     <li> Sebuah lingkaran ditentukan oleh titik pusat dan jari-jari atua diameter </li>
         \n
+        <li> Jika mencari luas atau keliling kelipatan tujuh maka gunakan π=22/7</li>
 </string>
-
     <string name="contohsoallingkaran">
-        Sebuah lapangan berbentuk lingkaran memiliki 88 m, tentukanlah luas lapangan tersebut. \n
+        <b>Contoh mencari Luas :</b>
+        \n
+        Sebuah lapangan berbentuk lingkaran memiliki 88 m, tentukanlah luas lapangan tersebut.
         \n
         <b> Penyelesaian :</b>
         \n
         <b> L = πr2</b> \n
-        L = (3,14) x 14 x 14 \n
-        L = 3,14 x 14 m2 x 14 m2 \n
-        L = 615,44 (616) m2 \n
-
+        L = (22/7) x 14 x 14 \n
+        L = 22/7 x 14 cm2 x 14 cm2 \n
+        L = 616 cm2 \n
+        \n
+        <b>Contoh mencari keliling :</b>
+        \n
+        Roda sepeda memiliki jari-jari berukuran 50 cm, hitunglah keliling roda tersebut?
+        \n
+        <b>Penyelesain :</b>
+        \n
+        <b>K = 2 x π x r</b>
+        \n
+        K = 2 x 3,14 x 50 cm
+        \n
+        K = 314 cm \n
     </string>
 
     //Text Persegipanjang
