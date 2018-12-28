@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bangundatar.yusril.anonym.bangunruang.Dev">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/man"
+    android:layout_gravity="center"
+    android:layout_margin="27dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:textSize="37sp"
+        android:textColor="#15cc52"
+        android:textStyle="italic|bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Oesman"
+        android:textSize="27sp"
+        android:textColor="#1bead2"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#d40606"
+        >
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Universitas :"
+        android:textSize="37sp"
+        android:textStyle="bold|italic"
+        android:textColor="#15cc52"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Universitas Muhammadiyah Parepare"
+        android:textSize="23sp"
+        android:layout_margin="2dp"
+        android:textColor="#1bead2"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#d40606"
+        >
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textSize="37sp"
+        android:textStyle="bold|italic"
+        android:textColor="#15cc52"
+        />
+    <TextView
+        android:autoLink="email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pendudukfilm@gmail.com"
+        android:textSize="23sp"
+        android:layout_margin="2dp"
+        android:textColor="#1bead2"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#d40606"
+        >
+
+    </View>
+
+
+</LinearLayout>
