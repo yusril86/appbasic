@@ -1,4 +1,4 @@
-package com.example.anonym.BangunRuang;
+package bangundatar.yusril.anonym.bangunruang;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -36,7 +36,7 @@ public class kalkulatorlingkaran extends AppCompatActivity {
                 if (!isikolom) {
                     hasil = Double.parseDouble(edtjarijari.getText().toString()) *
                             Double.parseDouble(edtjarijari.getText().toString()) * 3.14;
-                    tvhasil.setText("Luas lingkaran adalah =" + hasil + "cm2");
+                    tvhasil.setText("Luas lingkaran adalah =" + hasil + " cm2");
                 }
             }
         });
@@ -52,7 +52,7 @@ public class kalkulatorlingkaran extends AppCompatActivity {
                 }
                 if (!isikolom) {
                     hasil2 = Double.parseDouble(edtjarijari2.getText().toString()) * 2 * 3.14;
-                    tvhasil2.setText("Keliling lingkaran adalah =" + hasil2+"cm");
+                    tvhasil2.setText("Keliling lingkaran adalah =" + hasil2+" cm");
                 }
 
             }

@@ -1,4 +1,4 @@
-package com.example.anonym.BangunRuang;
+package bangundatar.yusril.anonym.bangunruang;
 
 import org.junit.Test;
 

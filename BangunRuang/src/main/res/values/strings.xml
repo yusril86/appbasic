@@ -1,6 +1,6 @@
 <resources>
     //Judul Title bar
-    <string name="app_name">BangunRuang</string>
+    <string name="app_name">Bangun Datar</string>
     <string name="titlemuatanlistrik">Persegi</string>
     <string name="titlemateri">Materi</string>
     <string name="tittlekuatarus">Segitiga</string>
@@ -69,7 +69,7 @@ Sebuah segitiga memiliki alas sebesar 5 cm dan tinggi 6 cm. Hitunglah luas segit
     <string name="contohsoallingkaran">
         <b>Contoh mencari Luas :</b>
         \n
-        Sebuah lapangan berbentuk lingkaran memiliki 88 m, tentukanlah luas lapangan tersebut.
+        Sebuah lapangan berbentuk lingkaran memiliki jari-jari 14 cm2, tentukanlah luas lapangan tersebut.
         \n
         <b> Penyelesaian :</b>
         \n
@@ -109,5 +109,8 @@ Sebuah segitiga memiliki alas sebesar 5 cm dan tinggi 6 cm. Hitunglah luas segit
     K = 2 x (12 + 8) = 2 x 20 = 40 cm
 </string>
 
-
+    <string name="about">
+    Aplikasi ini untuk memudahkan pengguna untuk mengetahui tentang bangun datar dan disertai dengan <b><i> rumus </i></b> dan <b> <i> contoh soal</i> </b>  <b> <i>serta Kalkulator nya</i> </b>
+\n tapi apilkasi banyak sekali <b> kekurangannya </b> dan dengan kehendak Allah ini adalah aplikasi Perdana yang kami publish
+</string>
 </resources>

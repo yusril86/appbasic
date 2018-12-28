@@ -1,6 +1,5 @@
-package com.example.anonym.BangunRuang;
+package bangundatar.yusril.anonym.bangunruang;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -42,7 +41,7 @@ public class kalkulatorpersegi extends AppCompatActivity {
                 }
                 if (!isEmptyFields) {
                     hasil = Integer.parseInt(edtsisi1.getText().toString()) * Integer.parseInt(edtsisi2.getText().toString());
-                    tvhasil.setText("luas persegi adalah =" + hasil + "cm2");
+                    tvhasil.setText("luas persegi adalah =" + hasil + " cm2");
                 }
 
             }
@@ -58,7 +57,7 @@ public class kalkulatorpersegi extends AppCompatActivity {
                 }
                 if (!isEmptyFields) {
                     keliling = Integer.parseInt(edtsisi3.getText().toString()) * 4;
-                    tvhasil2.setText("Keliling persegi adalah =" + keliling + "cm");
+                    tvhasil2.setText("Keliling persegi adalah =" + keliling + " cm");
                 }
             }
         });

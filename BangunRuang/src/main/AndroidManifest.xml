@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.anonym.BangunRuang">
+    package="bangundatar.yusril.anonym.bangunruang">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="bangundatar.yusril.anonym.bangunruang.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,38 +17,52 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Materi"
+            android:name="bangundatar.yusril.anonym.bangunruang.Materi"
             android:label="@string/titlemateri"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.MainActivity" />
         <activity
-            android:name=".persegi"
+            android:name="bangundatar.yusril.anonym.bangunruang.persegi"
             android:label="@string/titlemuatanlistrik"
-            android:parentActivityName=".Materi" />
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.Materi" />
         <activity
-            android:name=".segitiga"
+            android:name="bangundatar.yusril.anonym.bangunruang.segitiga"
             android:label="@string/tittlekuatarus"
-            android:parentActivityName=".Materi" />
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.Materi" />
         <activity
-            android:name=".lingkaran"
+            android:name="bangundatar.yusril.anonym.bangunruang.lingkaran"
             android:label="@string/titlelingkaran"
-            android:parentActivityName=".Materi" />
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.Materi" />
         <activity
-            android:name=".persegipanjang"
+            android:name="bangundatar.yusril.anonym.bangunruang.persegipanjang"
             android:label="@string/titlepersegipanjang"
-            android:parentActivityName=".Materi" />
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.Materi" />
         <activity
-            android:name=".kalkulatorpersegi"
+            android:name="bangundatar.yusril.anonym.bangunruang.kalkulatorpersegi"
             android:label="Persegi" />
         <activity
-            android:name=".kalkulatorsegitiga"
+            android:name="bangundatar.yusril.anonym.bangunruang.kalkulatorsegitiga"
             android:label="Segitiga" />
         <activity
-            android:name=".kalkulatorlingkaran"
+            android:name="bangundatar.yusril.anonym.bangunruang.kalkulatorlingkaran"
             android:label="Lingkaran" />
         <activity
-            android:name=".kalkulatorpersegipanjang"
+            android:name="bangundatar.yusril.anonym.bangunruang.kalkulatorpersegipanjang"
             android:label="Persegi panjang" />
-        <activity android:name=".Quiz"></activity>
+        <activity
+            android:name="bangundatar.yusril.anonym.bangunruang.Quiz"
+            android:label="Quiz"
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.MainActivity" />
+        <activity android:name="bangundatar.yusril.anonym.bangunruang.hasilquiz" />
+        <activity android:name="bangundatar.yusril.anonym.bangunruang.About"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.MainActivity"
+            />
+        <activity android:name="bangundatar.yusril.anonym.bangunruang.Dev"
+            android:label="Developer"
+            android:parentActivityName="bangundatar.yusril.anonym.bangunruang.MainActivity"
+            >
+
+        </activity>
     </application>
 
 </manifest>

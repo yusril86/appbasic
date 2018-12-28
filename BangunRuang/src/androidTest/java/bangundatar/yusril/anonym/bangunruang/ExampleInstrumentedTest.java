@@ -1,4 +1,4 @@
-package com.example.anonym.BangunRuang;
+package bangundatar.yusril.anonym.bangunruang;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

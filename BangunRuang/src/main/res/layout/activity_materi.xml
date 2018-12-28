@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bkg"
     android:orientation="vertical"
-    tools:context=".Materi">
+    tools:context="bangundatar.yusril.anonym.bangunruang.Materi">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package com.example.anonym.BangunRuang;
+package bangundatar.yusril.anonym.bangunruang;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +22,9 @@ public void quiz (View view){
         Intent intent = new Intent(MainActivity.this,Quiz.class);
         startActivity(intent);
 }
-
+public void about (View view){
+        Intent intent = new Intent(MainActivity.this,About.class);
+        startActivity(intent);
+}
 
 }
